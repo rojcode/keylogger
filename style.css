@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#testText {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+#myInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#checkButton {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Set button color */
+    color: #fff; /* Set button text color */
+    cursor: pointer;
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+#logContainer {
+    width: 80%;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff; /* Set border color */
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 100px; /* Added to limit height */
+}
+
+#logTextarea {
+    width: 100%;
+    height: 100%;
+    background-color: #222; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
